@@ -1,0 +1,166 @@
+
+ /*  root- configurações */
+ :root {
+    --cor-principal:#EA1C81;
+    --cor-topo: #D8F1FB;
+    --cor-preta: black;
+    --cor-fundo: #d8e1ff;
+    --cor-branca: #fff;
+ /*  -- é a variavel */
+ }
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+    box-sizing: border-box;
+}
+    /* espaço em volta   */
+
+
+ #header{
+    /*  para chamar id, coloca # e o nome */
+    background-color: var(--cor-topo);
+    /* apos o var, se coloca {} */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ }
+ 
+ #header nav a{
+    text-decoration: none;
+    color: var(--cor-preta);
+ }
+
+ #header nav a:hover{ 
+    background-color: var(--cor-principal);
+
+    color: var(--cor-branca);
+    border-radius: 20px;
+    /* muda fonte- font-weight */
+ }
+ 
+ .marginlateral{
+    margin: 0px 20px;
+ }
+
+ main #banner{
+    background-image: url('../img/Banner.png');
+    height: calc(100vh - 89px);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-principal);
+ }
+
+ main #banner button {
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+ }
+  .margemCimaBaixo{ 
+   margin: 20px 0px
+}
+ 
+ main #banner h1 {
+    color: var( --cor-principal);
+    cursor: pointer;
+ }
+
+ #header, main #banner button, #header nav a:hover,
+ #bemVindo div, main #beneficios #beneficios-servicos, #rodape{
+   padding: 15px;
+ }
+
+ #bemVindo{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ }
+ 
+ #bemVindo h3{
+   color: #EA1C81;
+   padding-bottom: 10px;
+ }
+ 
+  main #beneficios{
+   background-color: var(--cor-fundo);
+   color: var();
+ }
+  
+#Beneficios {
+   text-align: center;
+   background-color: #FAFBFF;
+   padding: 15px;
+}
+
+#beneficios-nossosbeneficios {
+   margin-bottom: 34px;
+ }
+
+ #beneficios-nossosbeneficios h3 {
+   color: #EA1C81;
+ }
+
+ #beneficios-servicos h4 {
+   color: #EA1C81;
+ }
+
+ #beneficios-servicos{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   text-align: center;
+ }
+
+ main #forms #form-formulario form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+
+#forms div input{
+   display: block;
+   padding: 8px;
+   border: none; 
+   border-radius: 10px;
+   outline: none;
+   margin-bottom: 10px;
+   border-bottom: 1px solid black;  
+   width: 450px;
+ }
+
+ #forms {
+   padding: 20px;
+   background-image: url(../img/dog.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+ }
+
+ #forms button{
+   padding: 8px;
+   border: none;
+   cursor: pointer;
+   border-radius: 10px;
+   color: var(--cor-branca);
+   background-color: var(--cor-principal);
+   width: 450px;
+ }
+
+ #forms #form-texto{
+   text-align: center;
+   padding: 10px;
+ }
+
+ #footer{
+   background-color: var(--cor-topo);
+   text-align: center;
+ }
+  
+
