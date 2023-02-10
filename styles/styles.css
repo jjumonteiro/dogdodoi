@@ -94,13 +94,13 @@
    color: var();
  }
   
-#Beneficios {
+ #Beneficios {
    text-align: center;
    background-color: #FAFBFF;
    padding: 15px;
-}
-
-#beneficios-nossosbeneficios {
+ }
+ 
+ #beneficios-nossosbeneficios {
    margin-bottom: 34px;
  }
 
@@ -125,7 +125,7 @@
    flex-direction: column;
  }
 
-#forms div input{
+ #forms div input{
    display: block;
    padding: 8px;
    border: none; 
@@ -142,6 +142,12 @@
    background-repeat: no-repeat;
    background-size: contain;
  }
+
+ #forms2 {
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
  #forms button{
    padding: 8px;
